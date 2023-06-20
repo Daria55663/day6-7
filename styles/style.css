@@ -1,0 +1,870 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 1250px;
+}
+
+header .livetvlogo {
+    display: flex;
+    align-items: center;
+}
+
+header .livetvlogo .headtext {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .livetvlogo .headtext a {
+    font-family: 'Golos Text';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    color: white;
+}
+header .livetvlogo .headtext a:hover{
+    transition: .5s;
+   color: rgb(0, 110, 255);
+  text-decoration-line: overline;
+}
+header .livetvlogo .headtext a:nth-child(1) {
+    margin-right: 25px;
+}
+
+header .livetvlogo .headtext a:nth-child(2) {
+    margin-right: 25px;
+}
+
+header .livetvlogo .headtext a:nth-child(3) {
+    margin-right: 25px;
+}
+
+header .livetvlogo .logo h2 {
+    font-family: 'Golos Text';
+    font-size: 24px;
+    color: #57a4fd;
+}
+
+header .poisk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+header .poisk .poisk1 {
+    display: flex;
+    align-items: center;
+}
+
+header .poisk .poisk1 img {
+    margin-right: 10px;
+}
+
+header .poisk a {
+    font-family: 'Golos Text';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    color: white;
+}
+
+header .poisk .poisk1 a {
+    margin-right: 30px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.backgroud {
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    padding: 220px 0 60px 0;
+    margin-top: 50px;
+    color: white;
+    border-radius: 8px;
+    width: 1250px;
+    margin-bottom: 60px;
+}
+
+.backgroud .textbackgraund {
+    margin-left: 110px;
+}
+
+.backgroud .textbackgraund .textbagrd .text h2 {
+    font-family: 'Golos Text';
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.backgroud .textbackgraund .textbagrd .inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.backgroud .textbackgraund .textbagrd .inf .numb h2 {
+    font-family: 'Golos Text';
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    color: white;
+}
+
+.backgroud .textbackgraund .textbagrd .inf .year h2 {
+    font-family: 'Golos Text';
+    font-size: 14px;
+    color: #909090;
+    font-weight: 600;
+}
+
+.backgroud .textbackgraund .textbagrd .inf .genre h2 {
+    font-family: 'Golos Text';
+    font-size: 14px;
+    color: #909090;
+    font-weight: 600;
+}
+
+.backgroud .textbackgraund .textbagrd .inf .mins h2 {
+    font-family: 'Golos Text';
+    font-size: 14px;
+    color: #909090;
+    font-weight: 600;
+}
+
+.backgroud .textbackgraund .textbagrd .inf .age h2 {
+    font-family: 'Golos Text';
+    font-weight: 600;
+    font-size: 14px;
+    color: #868686;
+}
+
+.aboutfilm p {
+    font-family: 'Golos Text';
+    font-size: 17px;
+    color: #dedede;
+    line-height: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 430px;
+    margin-top: 42px;
+}
+
+.buttons .butt1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 48px;
+    background: linear-gradient(to right, #0253d6, #355aff, #7eb8ff);
+border-radius: 7px;
+}
+.buttons .butt1:hover{
+    transition: .5s;
+ 
+    box-shadow: 1px 1px 10px 19px rgba(9, 132, 214, 0.25);
+   
+}
+.buttons .butt1 a{
+    font-family: 'Golos Text';
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.buttons .butt2{
+    background: linear-gradient(to right, #000e21, #161d27);
+    width: 120px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons .butt2 a{
+    font-family: 'Golos Text';
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.buttons .butt3{
+    background: linear-gradient(to right, #060f25, #0a1724);
+    width: 50px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons .butt3 a{
+    margin-top: 3px;
+}
+.recomendation h2{
+    font-family: 'Golos Text';
+    font-size: 39px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+}
+.recomendation{
+    width: 1250px;
+}
+.recomendation .recom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.recomendation .recom .rec1 img{
+border-radius: 7px;
+cursor: pointer;
+}
+.recomendation .recom .rec1 img:hover{
+    transition: .5s;
+ 
+    box-shadow: 1px 1px 10px 19px rgba(9, 132, 214, 0.25);
+    background-color: #84c0e7;
+}
+.recomendation .recom .rec1 h3{
+    font-size: 16px;
+    font-family: 'Golos Text';
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.recomendation .recom .rec1 p{
+    font-size: 14px;
+    color: #a1a1a1;
+    font-family: 'Golos Text';
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+.podborka{
+    background-image: url('../img/6.jpg');
+    background-size: cover;
+    margin-top: 90px;
+    color: white;
+    border-radius: 8px;
+    width: 1250px;
+    margin-bottom: 60px;
+}
+.podborka .text2 .kosmicheskaya h2{
+    margin-top: 120px;
+    text-transform: uppercase;
+    font-family: 'Golos Text';
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: 110px;
+}
+.podborka .text3 h3{
+    margin-left: 110px;
+    font-family: 'Golos Text';
+    font-size: 18px;
+    color: #dedede;
+    line-height: 25px;
+    font-weight: 500;
+    
+}
+.knopka{
+    margin-left: 110px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 48px;
+    background: linear-gradient(to right, #0253d6, #355aff, #7eb8ff);
+border-radius: 7px;
+margin-bottom: 120px;
+}
+
+.knopka:hover{
+    transition: .5s;
+ 
+    box-shadow: 1px 1px 10px 19px rgba(9, 132, 214, 0.25);
+   
+}
+.knopka a{
+    font-family: 'Golos Text';
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.bessonitsa{
+    width: 1250px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.bessonitsa .buttorange{
+    width: 200px;
+    height: 39px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #ff461c, #ffb042);
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin-bottom: 18px;
+}
+.bessonitsa .buttorange a{
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Golos Text';
+    color: white;
+}
+.bessonitsa .textbess h2{
+    font-family: 'Golos Text';
+    font-size: 55px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+.bessonitsa .inf1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bessonitsa .inf1 .numb h2 {
+    font-family: 'Golos Text';
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    color: white;
+}
+
+.bessonitsa .inf1 .year h2 {
+    font-family: 'Golos Text';
+    font-size: 14px;
+    color: #909090;
+    font-weight: 600;
+}
+
+.bessonitsa .inf1 .genre h2 {
+    font-family: 'Golos Text';
+    font-size: 14px;
+    color: #909090;
+    font-weight: 600;
+}
+.bessonitsa .block1{
+    margin-right: 100px;
+}
+.bessonitsa .inf1 .mins h2 {
+    font-family: 'Golos Text';
+    font-size: 14px;
+    color: #909090;
+    font-weight: 600;
+}
+
+.bessonitsa .inf1 .age h2 {
+    font-family: 'Golos Text';
+    font-weight: 600;
+    font-size: 14px;
+    color: #868686;
+}
+.bessonitsa img{
+    
+    border-radius: 8px;
+}
+.buttonss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 420px;
+}
+.buttonss .butt2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 48px;
+    background: linear-gradient(to right, #0253d6, #355aff, #7eb8ff);
+border-radius: 7px;
+}
+.buttonss .butt2:hover{
+    transition: .5s;
+ 
+    box-shadow: 1px 1px 10px 19px rgba(9, 132, 214, 0.25);
+   
+}
+.buttonss .butt2 a{
+    font-family: 'Golos Text';
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.buttonss .butt3{
+    background: linear-gradient(to right, #000e21, #161d27);
+    width: 120px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonss .butt3 a{
+    font-family: 'Golos Text';
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.buttonss .butt4{
+    background: linear-gradient(to right, #060f25, #0a1724);
+    width: 50px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonss .butt4 a{
+    margin-top: 3px;
+}
+.bessonitsa .price{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.bessonitsa .price p{
+   color: white;
+   font-family: 'Golos Text';
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 45px;
+font-weight: 600;
+}
+.opisanie{
+width: 1250px;
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+margin-bottom: 100px;
+}
+.opisanie .block3 .nav{
+width: 440px;
+  margin-right: 110px;
+}
+.opisanie .block4{
+   width: 670px;
+   
+}
+.opisanie .block4 .imgs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.opisanie .block4 .imgs img{
+border-radius: 7px;
+}
+.opisanie .block4 .imgs img:nth-child(3){
+    margin-top: 60px;
+}
+.opisanie .block4 .imgs img:nth-child(4){
+    margin-top: 60px;
+}
+.opisanie .block4 .imgs img:nth-child(1){
+    margin-top: 20px;
+}
+.opisanie .block4 .imgs img:nth-child(2){
+    margin-top: 20px;
+}
+.opisanie .block3 .nav a{
+    font-family: 'Golos Text';
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.opisanie .block3 .nav{
+    margin-bottom: 30px;
+    
+}
+.opisanie .block3{
+    margin-right: 30px;
+}
+.opisanie .block3 .nav a:nth-child(1){
+    border-bottom: 2px solid #3d98ff;
+    margin-right: 30px;
+}
+.opisanie .block3 .nav a:nth-child(2){
+ color: #868686;
+    margin-right: 30px;
+    font-family: 'Golos Text';
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+.opisanie .block3 .nav a:nth-child(3){
+    color: #868686;
+  
+       font-family: 'Golos Text';
+       font-weight: 600;
+       font-size: 16px;
+       text-decoration: none;
+   }
+.opisanie .block3 .opistext{
+    font-family: 'Golos Text';
+    font-size: 17px;
+    color: #dedede;
+    line-height: 25px;
+}
+.livetv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    
+}
+.livetv .blocks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 1250px;
+    margin-bottom: 90px;
+}
+.livetv .blocks .bl{
+    display: flex;
+    flex-direction: column;  
+}
+.livetv .blocks .textt{
+    display: flex;
+    flex-direction: column;
+}
+.livetv .blocks .block6{
+    display: flex;
+    flex-direction: column;
+}
+.livetv .blocks .block7{
+    display: flex;
+    flex-direction: column;
+}
+.livetv .blocks img{
+filter: contrast(110%);
+margin-top: 20px;
+}
+.livetv .blocks .textt h2{
+    color: #ffffff;
+    font-family: 'Golos Text';
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: 600;
+   margin-bottom: 30px;
+}
+.livetv .blocks .textt p{
+    font-family: 'Golos Text';
+    font-size: 16px;
+    color: #dedede;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.livetv .blocks .block6 .mln h2{
+    font-family: 'Golos Text';
+    font-size: 35px;
+    background-image: linear-gradient(to right, #0253d6, #6eaffc);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  line-height: 25px;
+
+}
+.livetv .blocks .block6 .mln:nth-child(1){
+    margin-right: 90px;
+}
+.livetv .blocks .block7 .proekt:nth-child(1){
+    margin-right: 15px;
+}
+.livetv .blocks .block6 {
+   display: flex;
+   flex-direction: row;
+}
+.livetv .blocks .block7 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+ }
+.livetv .blocks .block7 .proekt h2{
+    font-family: 'Golos Text';
+    font-size: 35px;
+    background-image: linear-gradient(to right, #0253d6, #6eaffc);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  line-height: 25px;
+
+}
+.livetv .blocks .block7 .proekt p{
+    color: #ffffff;
+    font-family: 'Golos Text';
+    font-size: 16px;
+    margin-top: 10px;
+}
+.livetv .blocks .block6 .mln p{
+    color: #ffffff;
+    font-family: 'Golos Text';
+    font-size: 16px;
+    margin-top: 10px;
+}
+.podpiska{
+    width: 1250px;
+}
+.podpiskablock{
+    margin-top: 80px;
+}
+.podpiskablock h2{
+    font-size: 48px;
+    color: #ffffff;
+    font-family: 'Golos Text';
+    margin-bottom: 20px;
+}
+.podpiskablock p{
+    font-family: 'Golos Text';
+    font-size: 16px;
+    color: #dddddd;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.kolonki{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.knopka1 p{
+    font-family: 'Golos Text';
+    font-size: 15px;
+    color: #d1d1d1;
+    margin-bottom: 10px;
+}
+.formochka{
+    width: 40%;
+}
+.knopka1 input{
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    background: none;
+    border: 1px solid #565656;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Golos Text';
+    font-size: 15px;
+  
+
+    font-weight: 400;
+}
+.formochka h2{
+    font-family: 'Golos Text';
+    font-size: 15px;
+    color: #d1d1d1;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.knopochki{
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.knopochki input{
+    width: 17px;
+    height: 17px;
+   
+}
+.knopochki label{
+    margin-left: -28px;
+    font-family: 'Golos Text';
+    font-size: 15px;
+    color: #d1d1d1;
+ 
+    font-weight: 400;
+   
+}
+ .obrabotka input {
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+
+}
+
+ .obrabotka label {
+   
+    font-family: 'Golos Text';
+    font-size: 15px;
+    color: #d1d1d1;
+ margin-left: 10px;
+    font-weight: 400;
+}
+.obrabotka{
+display: flex;
+align-items: center;
+}
+{
+
+}
+.continue{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 48px;
+    background: linear-gradient(to right, #0253d6, #355aff, #7eb8ff);
+border-radius: 7px;
+margin-top: 30px;
+}
+
+.continue:hover{
+    transition: .5s;
+ 
+    box-shadow: 1px 1px 10px 19px rgba(9, 132, 214, 0.25);
+   
+}
+.continue a{
+    font-family: 'Golos Text';
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.cards{
+display: grid;
+gap: 40px;
+grid-template-rows: 170px 170px;
+grid-template-columns: 260px 260px;
+}
+.card1{
+    background: linear-gradient(to right, #101c30, #232e3b);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+border-radius: 7px;
+    flex-direction: column;
+  cursor: pointer;
+}
+.card1:hover{
+    transition: .5s;
+    box-shadow: 6px 6px 30px 6px rgba(15, 92, 207, 0.25);
+}
+.card1 p{
+    color: #ffffff;
+    font-family: 'Golos Text';
+    font-size: 15px;
+    font-weight: 400;
+}
+.card1 h2{
+    font-family: 'Golos Text';
+    font-size: 30px;
+    color: #6fb1fc;
+}
+.card1 h3{
+    font-family: 'Golos Text';
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    width: 100%;
+}
+.blockfooter{
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.blockfooter .block8{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+.blockfooter .block8 p{
+    font-size: 13px;
+    font-family: 'Golos Text';
+   
+    color: #ffffff;
+    font-weight: 400;
+}
+.blockfooter .block8 a{
+    font-size: 13px;
+    font-family: 'Golos Text';
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.blockfooter .block9 img{
+    width: 25px;
+    height: 25px;
+}
+.blockfooter .block9 img:nth-child(1){
+    margin-right: 20px;
+}
